@@ -94,6 +94,7 @@
         <!--Task List View Controller-->
         <scene sceneID="eyH-2G-nu2">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9YP-CH-ynT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="TaskListViewController" id="n6S-H1-yR2" customClass="TaskListViewController" customModule="TodoListApp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9hz-Gn-1sQ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -117,7 +118,6 @@
                         <outlet property="tableView" destination="Hbb-ew-wBX" id="iQF-hE-LIl"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9YP-CH-ynT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1741.2213740458014" y="-2.1126760563380285"/>
         </scene>
